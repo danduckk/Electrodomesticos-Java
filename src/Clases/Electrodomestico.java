@@ -1,9 +1,9 @@
 package Clases;
 
 public class Electrodomestico {
-    private String tipo;
-    private String marca;
-    private double potencia;
+    protected String tipo;
+    protected String marca;
+    protected double potencia;
 
     // CONSTRUCTOR
     public Electrodomestico(String tipo, String marca, double potencia) {
